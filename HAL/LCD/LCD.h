@@ -1,10 +1,10 @@
 /*************************************************************************/
-/* Author        : Kareem Abdelkader                                   			  	  	*/
+/* Author        : Kareem Abdelkader                                   			  	*/
 /* Project       : ATmega32_Drivers		  	                             			  	*/
-/* File          : LCD.h						                     			      	*/
+/* File          : LCD.h						                     			      	          */
 /* Date          : 23/3/2024                                        				  	*/
 /* Version       : V1                                                				    */
-/* GitHub        : https://github.com/Kareem-Elshokary/AVR_ATmega32_DRIVERS		        */
+/* GitHub        : https://github.com/Kareem-Elshokary/AVR_ATmega32_DRIVERS		  */
 /*************************************************************************/
 
 
@@ -83,5 +83,7 @@ void HAL_LCD_CLR_SCREEN(void);
 void HAL_LCD_SEND_COMMAND(unsigned char command );
 void HAL_LCD_WRITE_CHAR(unsigned char);
 void HAL_LCD_WRITE_STRING(unsigned char*);
+void HAL_LCD_WRITE_NUMBER(s16 number);
+void HAL_LCD_gotoXY(u8 line , u8 position);
 
 #endif /* LCD_H_ */
