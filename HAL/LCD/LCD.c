@@ -3,7 +3,7 @@
 /* Project       : ATmega32_Drivers		  	                             	  */
 /* File          : LCD.c						                  */
 /* Date          : 23/3/2024                                        			  */
-/* Version       : V1                                                			  */
+/* Version       : V2                                                			  */
 /* GitHub        : https://github.com/Kareem-Elshokary/AVR_ATmega32_DRIVERS		  */
 /*************************************************************************/
 
