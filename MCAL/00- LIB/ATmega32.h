@@ -1,10 +1,10 @@
 /*************************************************************************/
-/* Author        : Kareem Abdelkader                                   			  	  	*/
-/* Project       : ATmega32_Drivers		  	                             			  	*/
-/* File          : ATmega32.h				                     				      	*/
-/* Date          : 21/3/2024                                        				  	*/
-/* Version       : V1                                                				    */
-/* GitHub        : https://github.com/Kareem-Elshokary/AVR_ATmega32_DRIVERS		        */
+/* Author        : Kareem Abdelkader                                   			  */
+/* Project       : ATmega32_Drivers		  	                             	  */
+/* File          : ATmega32.h				                     		  */
+/* Date          : 21/3/2024                                        			  */
+/* Version       : V1                                                			  */
+/* GitHub        : https://github.com/Kareem-Elshokary/AVR_ATmega32_DRIVERS		  */
 /*************************************************************************/
 
 
@@ -55,6 +55,17 @@
 #define GIFR				*((volatile uint8_t*) 0x5A)
 #define MCUCR				*((volatile uint8_t*) 0x55)
 #define MCUCSR				*((volatile uint8_t*) 0x54)
+
+/*
+	TIMERS
+*/
+#define TIMSK				*((volatile uint8_t*) 0x59)
+#define TIFR				*((volatile uint8_t*) 0x58)
+//TIM0
+#define OCR0				*((volatile uint8_t*) 0x5C)
+#define TCCR0				*((volatile uint8_t*) 0x53)
+#define TCNT0				*((volatile uint8_t*) 0x52)
+
 
 
 #endif /* ATMEGA32_H_ */
